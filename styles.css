@@ -1,0 +1,122 @@
+/* styles.css */
+/* Stilizare generală a paginii */
+body {
+    font-family: Arial, sans-serif; /* Setează fontul general al paginii */
+    line-height: 1.6; /* Îmbunătățește lizibilitatea textului */
+    background-color:lightblue;
+}
+
+/* Stilizare pentru paragrafe */
+p {
+    font-weight: bold; /* Face textul bold */
+    color: rgb(226, 36, 115);       /* Setează culoarea textului la albastru */
+    font-size: 20px;
+}
+
+/* Stilizare pentru alte elemente */
+h1, h2, h3 {
+    color: #851414; /* Culoarea textului pentru antete */
+}
+
+a {
+    color: #0f92a3; /* Culoarea textului pentru linkuri */
+    text-decoration: none; /* Elimină sublinierea linkurilor */
+}
+
+a:hover {
+    text-decoration: underline; /* Subliniere la hover pentru linkuri */
+}
+
+.hero {
+    background-image: url('images/hero-bg.jpg');
+    background-size: cover;
+    color: #a31414;
+    padding: 80px 0;
+    font-weight: bold;
+}
+
+.nav {
+    color:aqua;
+    font-weight: bold;
+}
+
+/* Stilizare generală pentru formularul de contact */
+.container {
+    background-color: #ffffff; /* Fundal alb pentru formular */
+    padding: 30px;
+    border-radius: 8px; /* Colțuri rotunjite pentru formular */
+    box-shadow: 0 0 10px rgba(173, 36, 36, 0.1); /* Umbră subtilă pentru adâncire */
+}
+
+.container h2 {
+    color: #343a40; /* Culoare text pentru titlu */
+    margin-bottom: 20px;
+    font-size: 2rem; /* Mărimea fontului pentru titlu */
+}
+
+.container p {
+    color: #6c757d; /* Culoare mai deschisă pentru textul de descriere */
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem; /* Spațiu între câmpuri */
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #495057; /* Culoare text pentru etichete */
+}
+
+.form-control {
+    border-radius: 0.25rem; /* Colțuri rotunjite pentru câmpuri */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Umbră internă pentru câmpuri */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Culoare bordură când câmpul este focusat */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Umbra focusatului */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Culoare fundal pentru butoane */
+    border-color: #007bff; /* Culoare bordură pentru butoane */
+    border-radius: 0.25rem; /* Colțuri rotunjite pentru butoane */
+    padding: 10px 20px; /* Spațiu intern pentru butoane */
+    font-size: 1rem; /* Mărimea fontului pentru butoane */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Culoare fundal la hover */
+    border-color: #004085; /* Culoare bordură la hover */
+}
+
+/* Eliminarea spațiului suplimentar din formular */
+form br {
+    display: none; /* Ascunde etichetele <br> */
+}
+
+.video-container {
+    width: 90%;
+    max-width: 800px;
+    margin-left: 40px;
+    padding-left: 40px;
+    border: 5px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+video {
+    width: 68%;
+    height: auto; /* Menține aspectul proporțional al videoclipului */
+    border-radius: 10px;
+    display: block;
+    margin-left: 270px; /* Adaugă un spațiu de 270px în partea stângă a videoclipului */
+}
+
+footer {
+    background-color: #343a40;
+}
+
+img {
+    margin-bottom: 15px;
+}
